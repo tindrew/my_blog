@@ -30,3 +30,4 @@ Today I programmed for about 5 hours. I worked on Learn to Program, covering som
 
 What I"m really liking about Ruby so far, is it's not as verbose as JavaScript (That's an understatement, nothing is as verbose as that language lol). So far I like what I see. It is definitely much more readable, and there is nowhere near the brackets, semicolons, etc etc that JavaScript has. I'm looking forward to digging in and seeing what this language has to offer.
 
+
