@@ -2,7 +2,26 @@ body{
     margin: 0;
 }
 
+
+/****************************/
+
 .navbar-dark{
     margin: 0 auto;
     padding: 0;
+}
+
+
+
+.fas {
+
+}
+
+
+/**********Jumbotron******************/
+.jumbotron {
+    text-align: center;
+}
+
+.greeting{
+    margin-top: 50px;
 }
