@@ -63,7 +63,7 @@ color:white;
 /**************section-3*****************/
 
 .section-3{
-    height:500px;
+    height:600px;
     background: gray;
     font-family: 'ABeeZee', sans-serif;
     padding: 0 20% 0 20%;
@@ -89,10 +89,12 @@ table {
 }
 
 .section-4{
-    height:500px;
-    background: gray;
+    margin:0;
+    height:550px;
+    background:black;
     font-family: 'ABeeZee', sans-serif;
-    padding: 0 20% 0 20%;
+    padding: 2% 20% 0 20%;
+    color:gray;
 }
 
 
