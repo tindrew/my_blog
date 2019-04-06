@@ -44,12 +44,10 @@ color:white;
     height:300px;
     background: white;
     font-family: 'ABeeZee', sans-serif;
-    margin: 0 30% 0 30%;
 }
 
 .section-2-title {
     text-align:center;
-    margin:2.5em;
 }
 
 
@@ -63,7 +61,7 @@ color:white;
 /**************section-3*****************/
 
 .section-3{
-    height:600px;
+    
     background: gray;
     font-family: 'ABeeZee', sans-serif;
     padding: 0 20% 0 20%;
@@ -90,7 +88,6 @@ table {
 
 .section-4{
     margin:0;
-    height:550px;
     background:black;
     font-family: 'ABeeZee', sans-serif;
     padding: 2% 20% 0 20%;
@@ -98,7 +95,7 @@ table {
 }
 
 
-/*@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -116,5 +113,45 @@ table {
       display: block;
       width: 100%;
       text-align: left;
+    } */
+  }
+
+  @media screen and (min-width: 320px) {
+    .jumbotron {
+        text-align: center;
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) -16%, rgba(82,82,82,1) 0%, rgba(0,0,0,1) 100%);
+        color:white;
+        font-size: 12px;
     }
-  }*/
+        
+    .greeting{
+        margin-top: 40px;
+        font-size:1vw !important;
+
+    }
+    
+    .lead{
+        margin-bottom: 40px;
+        font-size:2vw !important;
+    }
+    
+    h2 {
+        text-align:center;
+        font-size:1.5rem;
+        margin:0 !important;
+        padding: 0;
+    } 
+
+    .section-2{
+        margin:0;
+    }
+
+    
+
+    .card{
+        image
+        width: 50px;
+        height:50px;
+    }
+}
