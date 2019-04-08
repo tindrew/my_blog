@@ -142,10 +142,35 @@ i{
     padding:10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
+    .section-2{
+        padding:  10% 10%;
+    }
     
+    .section-3{
+        padding: 10% 10%;
+    }
+    .card-deck{
+        padding: 10%;
+    }
   }
 
+  @media screen and (min-width: 960px) {
+    .section-2{
+        padding:  5% 20%;
+    }
+    
+    .section-3{
+        padding: 1% 20%;
+    }
+    .card-deck{
+        padding: 5% 20%;
+    }
+  }
+
+  .section-4{
+      padding: 1% 20%;
+  }
   @media screen and (min-width: 320px) {
     
 
