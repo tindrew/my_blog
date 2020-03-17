@@ -15,207 +15,25 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-        
-<!--***********************Navbar*************************-->
-        <nav class="navbar  fixed-top ">
-    
-            <button class="justify-content-center navbar-toggler navbar-dark btn-outline-dark" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="toggle navbar-toggler-icon navbar-dark"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link nav-button-style" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-button-style" href="#">Projects</a>
-                </li>
-                <li class="nav-item nav1">
-                  <a class="nav-link nav-button-style" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-button-style" href="#">FF Bible App</a>
-                  </li>
-              </ul> 
-            </div>
-          </nav>
-        
-      
-
-<!--***********************Jumbotron*************************-->
-
-        
-        <div class="jumbotron jumbotron-fluid">
-            <img src="images/brainsprout1.png" width="120" height="120" alt="">
-            <h1 class="greeting display-4">Hello.</h1>
-            <h2>Welcome to the world of Drew's seed (brain).</h2>
-            <p class="lead">Here you will find many things that have sprouted.</p>
-            <i class="fas fa-angle-down fa-7x"></i>
-        </div>
-          
-<!--***********************Section-2*************************-->
-
-        
-    <div class="section-2">
-        <h2 class="section-2-title">The Boring Stuff</h2>
-        <p>I live in a tiny town in nowhere, Arkansas with my wife, 3 year old son, and our 2 yappers(dogs). I'm currently doing contract work for a resort, 
-            where i'm building and rebranding their online presence. I'm currently open to new opportunities and would love to hear from you.</p>
-    </div>
-<!--***********************Section-3*************************-->
-
-    <div class="container-fluid section-3">
-      <h2 class="section-3-title">Some Projects I've Completed, some I'm working on.</h2>
-
-      <div class="card-deck">
-
-          <div class="card">
-             <img class="card-img-top" src="images/brain.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/brain.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/brain.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-  
-
-        
-
-
-
-
-    </div>
-
-    
-    <!--***********************Section-4*************************-->
-    <div class="section-4">
-
-<!--Section: Contact v.2-->
-<section class="mb-0">
-
-  <!--Section heading-->
-  <h2 class="h1-responsive font-weight-bold text-center my-4">Lets have coffee.</h2>
-  <!--Section description-->
-  <p class="text-center w-responsive mx-auto mb-5">Like my work? Maybe just want to chat over a steaming cup of java?(Because it's cliche', and because I like it.) Feel free to drop me a line.</p>
-
-  <div class="row">
-
-      <!--Grid column-->
-      <div class="col-md-9 mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="name" name="name" class="form-control">
-                          <label for="name" class="">Your name</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="email" name="email" class="form-control">
-                          <label for="email" class="">Your email</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="md-form mb-0">
-                          <input type="text" id="subject" name="subject" class="form-control">
-                          <label for="subject" class="">Subject</label>
-                      </div>
-                  </div>
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-12">
-
-                      <div class="md-form">
-                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                          <label for="message">Your message</label>
-                      </div>
-
-                  </div>
-              </div>
-              <!--Grid row-->
-
-          </form>
-
-          <div class="text-center text-md-left">
-              <a class="btn btn-outline-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
-          </div>
-          <div class="status"></div>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-md-3 text-center">
-          <ul class="list-unstyled mb-0">
-              <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                  <p>Horseshoe Bend, Arkansas USA</p>
-              </li>
-
-              <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                  <p>+ (870)373-1960</p>
-              </li>
-
-              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                  <p>andevelpr@outlook.com</p>
-              </li>
-          </ul>
-      </div>
-      <!--Grid column-->
-
-  </div>
-
-</section>
-<!--Section: Contact v.2-->
-
-
-</div>
-     <footer>
-          <a href="https://github.com/tindrew"><i class="github-icon fab fa-github fa-3x"></i></a>
-        <a href="https://twitter.com/Andevrs"><i class="twitter-icon fab fa-twitter-square fa-3x"></i></a> 
-        <p> copyright(C) Andrew Martin</p>
-
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="main.js"></script>
-    </body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Hi there, I'm Hank Quinlan!</h1>
+				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+			</ul>
+		</footer>
+	</body>
 </html>
