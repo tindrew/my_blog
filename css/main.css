@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    margin: 100px auto;
     width: 70%;
     color: #E0E0E0;
     background-color: #455A64;
@@ -34,6 +34,7 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
+    
 }
 p {
     font-size: 1.5em;
