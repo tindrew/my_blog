@@ -26,6 +26,12 @@ nav ul li, footer ul li {
     text-align: center;
 
 }
+
+footer ul li {
+ margin top: 50px;   
+    
+}
+    
 a {
     text-decoration: none;
     color: #999;
