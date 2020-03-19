@@ -13,9 +13,6 @@ body {
   }
 }
 
-nav ul li {
- text-align: center;   
-}
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -27,7 +24,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-
+    text-align: center;
 }
 
 
@@ -53,7 +50,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #E0E0E0;
-    text-align: center;
+    
 }
 footer {
     border-top: 1px solid #d5d5d5;
